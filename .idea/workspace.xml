@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="261af510-762f-4b0d-b561-f622127bf355" name="Changes" comment="Solutions from Basic syntax, conditional statements and loops lab">
-      <change afterPath="$PROJECT_DIR$/Basic syntax conditional statements and loops - Lab/shopping.py" afterDir="false" />
-    </list>
+    <list default="true" id="261af510-762f-4b0d-b561-f622127bf355" name="Changes" comment="Solutions from Basic syntax, conditional statements and loops lab" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +52,14 @@
       <option name="presentableId" value="Default" />
       <updated>1695449564526</updated>
     </task>
+    <task id="LOCAL-00001" summary="Solutions from Basic syntax, conditional statements and loops lab">
+      <created>1695451229912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695451229912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,5 +72,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solutions from Basic syntax, conditional statements and loops lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solutions from Basic syntax, conditional statements and loops lab" />
   </component>
 </project>
