@@ -24,4 +24,3 @@ elif choice == 3:
         print(row)
 elif choice == 4:
     print('Goodbye')
-    
