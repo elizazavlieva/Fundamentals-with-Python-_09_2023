@@ -1,0 +1,3 @@
+number_list = [abs(float(num)) for num in input().split()]
+print(number_list)
+
