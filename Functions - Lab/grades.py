@@ -1,8 +1,5 @@
-grade_info = float(input())
-
-
 def evaluation(grade):
-    grade_with_words = ''
+    grade_with_words = None
     if 2.00 <= grade <= 2.99:
         grade_with_words = 'Fail'
     elif 3.00 <= grade <= 3.49:
@@ -16,4 +13,5 @@ def evaluation(grade):
     return grade_with_words
 
 
+grade_info = float(input())
 print(evaluation(grade_info))
