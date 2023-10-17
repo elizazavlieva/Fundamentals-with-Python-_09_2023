@@ -12,7 +12,6 @@ def available_movement(maze):
     total_free_space = []
 
     for row in range(len(maze)):
-
         for col in range(len(maze[row])):
             is_space = False
             section = []
