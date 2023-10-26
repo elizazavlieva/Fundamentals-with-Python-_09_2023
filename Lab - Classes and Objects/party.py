@@ -1,17 +1,16 @@
 class Party:
-    people = []
-
     def __init__(self):
-        pass
+        self.people = []
 
 
+party = Party()
 counter = 0
 while True:
     name = input()
     if name == 'End':
         break
-    Party.people.append(name)
+    party.people.append(name)
     counter += 1
 
-print(f'Going: {", ".join(Party.people)}')
+print(f'Going: {", ".join(party.people)}')
 print(f'Total: {counter}')
