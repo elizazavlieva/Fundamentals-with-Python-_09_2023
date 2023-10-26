@@ -4,3 +4,4 @@ class Email:
         self.receiver = receiver
         self.content = content
 
+
