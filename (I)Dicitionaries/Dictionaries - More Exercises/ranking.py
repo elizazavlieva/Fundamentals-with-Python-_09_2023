@@ -27,7 +27,7 @@ while True:
                     users_score[username][contest] = points
                 else:
                     is_valid = False
-                    for k,v in users_score.items():
+                    for k, v in users_score.items():
                         if k == username:
                             for course, score in v.items():
                                 if course == contest and score < points:
@@ -41,8 +41,8 @@ while True:
 users_score = dict(sorted(users_score.items()))
 v = []
 for key, value in users_score.items():
-    v = sorted(value.items(), key= lambda x:x[1], reverse=True)
-    users_score[key]= dict(v)
+    v = sorted(value.items(), key=lambda x: x[1], reverse=True)
+    users_score[key] = dict(v)
 
 winner = ''
 winner_score = 0
@@ -53,7 +53,7 @@ for k, v in users_score.items():
         winner_score = sum(v.values())
 print(f'Best candidate is {winner} with total {winner_score} points.')
 print('Ranking:')
-for k,v in users_score.items():
+for k, v in users_score.items():
     print(f'{k}')
     for course, score in v.items():
         print(f'#  {course} -> {score}')
