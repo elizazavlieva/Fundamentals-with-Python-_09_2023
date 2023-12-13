@@ -1,1 +1,3 @@
-# Fundamentals-with-Python-_09_2023
+# Fundamentals-with-Python-09-2023
+
+In this repository there are solutions to tasks from the programming Fundamentals course with Python.
